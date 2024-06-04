@@ -1,0 +1,21 @@
+{
+    "name": "jian1098/icbc-sdk",
+    "description": "工商银行官方php sdk开发包，已加入命名空间并修复部分bug，支持php8",
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Jian1098\\IcbcSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jian1098",
+            "email": "1098129310@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
